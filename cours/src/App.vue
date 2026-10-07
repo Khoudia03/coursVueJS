@@ -1,6 +1,6 @@
 <script setup>
-import HelloWord from './demons/01_helloWord/HelloWord.vue';
-import Interpolation from './demons/02_interpolation/Interpolation.vue';
+// import HelloWord from './demons/01_helloWord/HelloWord.vue';
+// import Interpolation from './demons/02_interpolation/Interpolation.vue';
 import VBind from './demons/03_vbind/VBind.vue';
 
 </script>
@@ -8,9 +8,9 @@ import VBind from './demons/03_vbind/VBind.vue';
 <template>
 
  <div>
-   <HelloWord></HelloWord>
+   <!-- <HelloWord></HelloWord>
   <p class="card">Inata</p>
-  <Interpolation></Interpolation>
+  <Interpolation></Interpolation> -->
   <VBind></VBind>
  </div>
 
