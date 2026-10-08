@@ -4,7 +4,9 @@
 //import VBind from './demons/03_vbind/VBind.vue';
 //import AttributDynamique from './demons/04_attributDynamique/AttributDynamique.vue';
 //import Event from './demons/05_event/Event.vue';
-import FormEvent from './demons/05_event/FormEvent.vue';
+//import FormEvent from './demons/05_event/FormEvent.vue';
+//import Reactive from './demons/06_reactive/Reactive.vue';
+import Computed from './demons/07_computed/Computed.vue';
 
 </script>
 
@@ -17,7 +19,9 @@ import FormEvent from './demons/05_event/FormEvent.vue';
   <!-- <VBind></VBind> -->
   <!-- <AttributDynamique></AttributDynamique> -->
   <!-- <Event></Event> -->
-   <FormEvent></FormEvent>
+   <!-- <FormEvent></FormEvent> -->
+   <!-- <Reactive></Reactive> -->
+   <Computed></Computed>
  </div>
 
 </template>
