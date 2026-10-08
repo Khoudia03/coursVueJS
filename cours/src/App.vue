@@ -7,7 +7,8 @@
 //import FormEvent from './demons/05_event/FormEvent.vue';
 //import Reactive from './demons/06_reactive/Reactive.vue';
 //import Computed from './demons/07_computed/Computed.vue';
-import ConditionnelRendering from './demons/08_conditionnelRendering/ConditionnelRendering.vue';
+//import ConditionnelRendering from './demons/08_conditionnelRendering/ConditionnelRendering.vue';
+import For from './demons/09_for/For.vue';
 
 </script>
 
@@ -23,7 +24,8 @@ import ConditionnelRendering from './demons/08_conditionnelRendering/Conditionne
    <!-- <FormEvent></FormEvent> -->
    <!-- <Reactive></Reactive> -->
    <!-- <Computed></Computed> -->
-   <ConditionnelRendering></ConditionnelRendering>
+   <!-- <ConditionnelRendering></ConditionnelRendering> -->
+   <For></For>
  </div>
 
 </template>
