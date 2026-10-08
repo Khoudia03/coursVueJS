@@ -42,7 +42,7 @@ const products = reactive([
       <!-- <li v-for="p in products" :key="p.nom"> -->
         {{ product.nom }} - {{ product.prix }} FCFA
         <button @click="products.splice(i,1)">❌</button>
-        <!-- <button @click="products = products.filter(product => product.nom !== p.nom)">❌</button> -->
+        <!-- <button @click="products.value = products.value.filter((product) => product.nom !== p.nom)">❌</button> -->
       </li>
     </ul>
   </section>

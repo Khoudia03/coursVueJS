@@ -8,7 +8,8 @@
 //import Reactive from './demons/06_reactive/Reactive.vue';
 //import Computed from './demons/07_computed/Computed.vue';
 //import ConditionnelRendering from './demons/08_conditionnelRendering/ConditionnelRendering.vue';
-import For from './demons/09_for/For.vue';
+//import For from './demons/09_for/For.vue';
+import From from './demons/10_from/From.vue';
 
 </script>
 
@@ -25,7 +26,8 @@ import For from './demons/09_for/For.vue';
    <!-- <Reactive></Reactive> -->
    <!-- <Computed></Computed> -->
    <!-- <ConditionnelRendering></ConditionnelRendering> -->
-   <For></For>
+   <!-- <For></For> -->
+    <From></From>
  </div>
 
 </template>
