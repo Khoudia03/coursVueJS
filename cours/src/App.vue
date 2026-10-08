@@ -3,7 +3,8 @@
 // import Interpolation from './demons/02_interpolation/Interpolation.vue';
 //import VBind from './demons/03_vbind/VBind.vue';
 //import AttributDynamique from './demons/04_attributDynamique/AttributDynamique.vue';
-import Event from './demons/05_event/Event.vue';
+//import Event from './demons/05_event/Event.vue';
+import FormEvent from './demons/05_event/FormEvent.vue';
 
 </script>
 
@@ -15,7 +16,8 @@ import Event from './demons/05_event/Event.vue';
   <Interpolation></Interpolation> -->
   <!-- <VBind></VBind> -->
   <!-- <AttributDynamique></AttributDynamique> -->
-  <Event></Event>
+  <!-- <Event></Event> -->
+   <FormEvent></FormEvent>
  </div>
 
 </template>
