@@ -6,7 +6,8 @@
 //import Event from './demons/05_event/Event.vue';
 //import FormEvent from './demons/05_event/FormEvent.vue';
 //import Reactive from './demons/06_reactive/Reactive.vue';
-import Computed from './demons/07_computed/Computed.vue';
+//import Computed from './demons/07_computed/Computed.vue';
+import ConditionnelRendering from './demons/08_conditionnelRendering/ConditionnelRendering.vue';
 
 </script>
 
@@ -21,7 +22,8 @@ import Computed from './demons/07_computed/Computed.vue';
   <!-- <Event></Event> -->
    <!-- <FormEvent></FormEvent> -->
    <!-- <Reactive></Reactive> -->
-   <Computed></Computed>
+   <!-- <Computed></Computed> -->
+   <ConditionnelRendering></ConditionnelRendering>
  </div>
 
 </template>
