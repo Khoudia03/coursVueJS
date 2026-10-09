@@ -16,7 +16,7 @@
     });   
     const platSelectionne = ref(null);
     const commandes = ref([]);
-    const commandeActuel = ref(null);
+    const idCommandeActuel = ref(null);
     const quantiteCommandee = ref(1);
 
 
@@ -26,7 +26,7 @@
         {
             return;
         } 
-        plats.value.push({ ... formPlat}); 
+        plats.value.push({ ... formPlat, id: Math.random()}); 
         vider();      
     }
 
@@ -48,18 +48,19 @@
     }
     function commander(plat)
     {
-        commandeActuel.value = plat.id;
+        idCommandeActuel.value = plat.id;
     }
     function ajouterCommande()
     {
-        const platActuel = plats.value.find(plat => plat.id == commandeActuel.value);
+        //il permet de recuper le plat(getPlatById)
+        const platActuel = plats.value.find(plat => plat.id == idCommandeActuel.value);
         
         if(quantiteCommandee.value > platActuel.quantite)
         {
             alert("Quantite indisponible");
             return;
         }
-        commandeActuel.value = null; //on a ramené le boutton
+        idCommandeActuel.value = null; //on a ramené le boutton
     
         if(quantiteCommandee.value <= 0)
         {
@@ -120,7 +121,7 @@
                        {{ platSelectionne === p.id ? 'Masquer' : 'Détails' }}
                    </button>
 
-                   <button v-if="commandeActuel != p.id" class="btn-commander" @click="commander(p)">
+                   <button v-if="idCommandeActuel != p.id" class="btn-commander" @click="commander(p)">
                        commander
                    </button>
                    <input v-model="quantiteCommandee" @keyup.enter="ajouterCommande" v-else type="number" placeholder="quantite">
