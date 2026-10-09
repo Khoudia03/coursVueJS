@@ -10,7 +10,9 @@
 //import ConditionnelRendering from './demons/08_conditionnelRendering/ConditionnelRendering.vue';
 //import For from './demons/09_for/For.vue';
 //import From from './demons/10_from/From.vue';
-import PropsValidatorDemon from './demons/11_propsValidatorDemon/PropsValidatorDemon.vue';
+//import PropsValidatorDemon from './demons/11_propsValidatorDemon/PropsValidatorDemon.vue';
+//import Parent from './demons/12_emit/Parent.vue';
+import RevisionParent from './demons/revisionEmit/RevisionParent.vue';
 
 </script>
 
@@ -29,7 +31,9 @@ import PropsValidatorDemon from './demons/11_propsValidatorDemon/PropsValidatorD
    <!-- <ConditionnelRendering></ConditionnelRendering> -->
    <!-- <For></For> -->
     <!-- <From></From> -->
-     <PropsValidatorDemon></PropsValidatorDemon>
+     <!-- <PropsValidatorDemon></PropsValidatorDemon> -->
+      <!-- <Parent></Parent> -->
+       <RevisionParent></RevisionParent>
  </div>
 
 </template>
