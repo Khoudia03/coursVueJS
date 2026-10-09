@@ -9,7 +9,8 @@
 //import Computed from './demons/07_computed/Computed.vue';
 //import ConditionnelRendering from './demons/08_conditionnelRendering/ConditionnelRendering.vue';
 //import For from './demons/09_for/For.vue';
-import From from './demons/10_from/From.vue';
+//import From from './demons/10_from/From.vue';
+import PropsValidatorDemon from './demons/11_propsValidatorDemon/PropsValidatorDemon.vue';
 
 </script>
 
@@ -27,7 +28,8 @@ import From from './demons/10_from/From.vue';
    <!-- <Computed></Computed> -->
    <!-- <ConditionnelRendering></ConditionnelRendering> -->
    <!-- <For></For> -->
-    <From></From>
+    <!-- <From></From> -->
+     <PropsValidatorDemon></PropsValidatorDemon>
  </div>
 
 </template>
